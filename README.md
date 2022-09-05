@@ -5,7 +5,9 @@ Menghubungkan Node JS dan MySQL
 ## Cara Install
 
 git clone https://github.com/joco-ding/nodejs-mysql
+
 cd nodejs-mysql
+
 npm install
 
 ## Video Tutorial
