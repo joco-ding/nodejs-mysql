@@ -1,7 +1,7 @@
 import promisePool from "./mydb.js"
 
 const putFilm = async (req, res) => {
-  const id = parseInt(req.params.id, 32)
+  const id = parseInt(req.params.id, 10)
   const { judul, kategori } = req.body
 
   let ok = false

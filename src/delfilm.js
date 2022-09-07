@@ -1,7 +1,7 @@
 import promisePool from "./mydb.js"
 
 const delFilm = async (req, res) => {
-  const id = parseInt(req.params.id, 32)
+  const id = parseInt(req.params.id, 10)
   
   let ok = false
   let message = 'Gagal'

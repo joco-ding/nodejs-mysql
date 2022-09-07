@@ -17,6 +17,6 @@ const addFilm = async (req, res) => {
   }
 
   res.json({ ok, message, data })
-} 
+}
 
 export default addFilm
